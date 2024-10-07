@@ -1,33 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Accordion</title>
-</head>
-<body>
-   <section class="main-wrapper">
-      <section>
-      <section>Difference between javascript and typescript ? </section>
-         <p>TypeScript is referred to as an Object-oriented programming language; on the other hand, JavaScript is a prototype-based language. TypeScript offers static types mean variables, objects, and functions, whereas JavaScript doesn't require the explicit declaration of the variables before they're used.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Accordion</title>
+  </head>
+  <body>
+    <h1>FAQ's</h1>
+    <section class="main-wrapper">
+      <section class="accordion" type="button">
+        <section class="question-btn-wrapper" type="button">
+          <section class="question">
+            Difference between javascript and typescript ?
+          </section>
+          <span><i class="icon fa-solid fa-arrow-down"></i></span>
+        </section>
+        <p class="solution">
+          TypeScript is referred to as an Object-oriented programming language;
+          on the other hand, JavaScript is a prototype-based language.
+          TypeScript offers static types mean variables, objects, and functions,
+          whereas JavaScript doesn't require the explicit declaration of the
+          variables before they're used.
+        </p>
       </section>
 
-      <section>
-         <section>What is DOM ? </section>
-            <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.</p>
-         </section>
+      <section class="accordion">
+        <section class="question-btn-wrapper">
+          <section class="question">What is DOM ?</section>
+          <span><i class="icon fa-solid fa-arrow-down"></i></span>
+        </section>
+        <p class="solution">
+          The Document Object Model (DOM) is a programming interface for web
+          documents. It represents the page so that programs can change the
+          document structure, style, and content. The DOM represents the
+          document as nodes and objects; that way, programming languages can
+          interact with the page.
+        </p>
+      </section>
 
-         <section>
-            <section>What is state in reactjs ? </section>
-               <p>In React, state is a component-specific memory that stores and manages data that can change over time. It's a fundamental concept in React that allows components to remember information between renders and influences what is displayed on the user interface. 
-               </p>
-            </section>
+      <section class="accordion">
+        <section class="question-btn-wrapper">
+          <section class="question">What is state in reactjs ?</section>
+          <span><i class="icon fa-solid fa-arrow-down"></i></span>
+        </section>
+        <p class="solution">
+          In React, state is a component-specific memory that stores and manages
+          data that can change over time. It's a fundamental concept in React
+          that allows components to remember information between renders and
+          influences what is displayed on the user interface.
+        </p>
+      </section>
 
-            <section>
-               <section>Difference between library and framework ? </section>
-                  <p>The main difference between a library and a framework in React JS is that a library provides predefined methods and classes to help developers work faster, while a framework provides a structure for building a projec</p>
-               </section>
-   
-   </section>
-</body>
+      <section class="accordion">
+        <section class="question-btn-wrapper">
+          <section class="question">
+            Difference between library and framework ?
+          </section>
+          <span><i class="icon fa-solid fa-arrow-down"></i></span>
+        </section>
+        <p class="solution">
+          The main difference between a library and a framework in React JS is
+          that a library provides predefined methods and classes to help
+          developers work faster, while a framework provides a structure for
+          building a projec
+        </p>
+      </section>
+    </section>
+    <script src="index.js"></script>
+  </body>
 </html>
